@@ -11,7 +11,10 @@ def home():
 @app.get("/panchang")
 def panchang(date: str = "2026-02-12", lat: float = 27.7172, lon: float = 85.3240):
     # Convert AD string to datetime
-    ad_date = datetime.strptime(date, "%Y-%m-%d")
+    ad_datetime = datetime.strptime(date, "%Y-%m-%d")
+    
+    # Convert to datetime.date
+    ad_date = ad_datetime.date()
     
     # Convert AD to BS
     bs_date = nd.date.from_datetime_date(ad_date)
