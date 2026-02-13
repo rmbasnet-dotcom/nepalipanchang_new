@@ -1,10 +1,542 @@
 {
-"2082-01-01":{"date_ad":"2025-04-14","tithi":{"index":null,"name_en":""},"nakshatra":{"index":null,"name_en":""},"rashi":{"index":null,"name_en":""},"festival":"New Year's Day","rahu_kaal":"07:15-08:45"},
-"2082-01-02":{"date_ad":"2025-04-15","tithi":{"index":null,"name_en":""},"nakshatra":{"index":null,"name_en":""},"rashi":{"index":null,"name_en":""},"festival":"","rahu_kaal":"10:30-12:00"},
-"2082-01-03":{"date_ad":"2025-04-16","tithi":{"index":null,"name_en":""},"nakshatra":{"index":null,"name_en":""},"rashi":{"index":null,"name_en":""},"festival":"","rahu_kaal":"12:00-13:30"},
-"2082-01-04":{"date_ad":"2025-04-17","tithi":{"index":null,"name_en":""},"nakshatra":{"index":null,"name_en":""},"rashi":{"index":null,"name_en":""},"festival":"","rahu_kaal":"15:00-16:30"},
-"2082-07-15":{"date_ad":"2025-10-03","tithi":{"index":null,"name_en":""},"nakshatra":{"index":null,"name_en":""},"rashi":{"index":null,"name_en":""},"festival":"Dashain 1","rahu_kaal":"10:30-12:00"},
-"2082-07-20":{"date_ad":"2025-10-08","tithi":{"index":null,"name_en":""},"nakshatra":{"index":null,"name_en":""},"rashi":{"index":null,"name_en":""},"festival":"Dashain 5","rahu_kaal":"12:00-13:30"},
-"2082-08-08":{"date_ad":"2025-10-27","tithi":{"index":null,"name_en":""},"nakshatra":{"index":null,"name_en":""},"rashi":{"index":null,"name_en":""},"festival":"Tihar 1 - Kaag Tihar","rahu_kaal":"10:30-12:00"},
-"2083-12-30":{"date_ad":"2026-04-12","tithi":{"index":null,"name_en":""},"nakshatra":{"index":null,"name_en":""},"rashi":{"index":null,"name_en":""},"festival":"None","rahu_kaal":"07:15-08:45"}
+  "metadata": {
+    "name": "Nepali Panchang",
+    "version": "1.0",
+    "description": "Panchang data for 2082-2083 BS (2025-2026 AD)",
+    "start_date_bs": "2082-01-01",
+    "end_date_bs": "2083-12-30",
+    "start_date_ad": "2025-04-14",
+    "end_date_ad": "2026-04-13",
+    "generated": "2025-04-10"
+  },
+  "year_mapping": {
+    "2082": {
+      "bs_year": 2082,
+      "ad_start": "2025-04-14",
+      "ad_end": "2026-04-13",
+      "months": {
+        "1": { "name": "Baisakh", "days": 31, "ad_start": "2025-04-14", "ad_end": "2025-05-14" },
+        "2": { "name": "Jestha", "days": 32, "ad_start": "2025-05-15", "ad_end": "2025-06-15" },
+        "3": { "name": "Ashadh", "days": 32, "ad_start": "2025-06-16", "ad_end": "2025-07-17" },
+        "4": { "name": "Shrawan", "days": 32, "ad_start": "2025-07-18", "ad_end": "2025-08-18" },
+        "5": { "name": "Bhadra", "days": 31, "ad_start": "2025-08-19", "ad_end": "2025-09-18" },
+        "6": { "name": "Ashwin", "days": 31, "ad_start": "2025-09-19", "ad_end": "2025-10-19" },
+        "7": { "name": "Kartik", "days": 30, "ad_start": "2025-10-20", "ad_end": "2025-11-18" },
+        "8": { "name": "Mangsir", "days": 30, "ad_start": "2025-11-19", "ad_end": "2025-12-18" },
+        "9": { "name": "Poush", "days": 30, "ad_start": "2025-12-19", "ad_end": "2026-01-17" },
+        "10": { "name": "Magh", "days": 29, "ad_start": "2026-01-18", "ad_end": "2026-02-15" },
+        "11": { "name": "Falgun", "days": 30, "ad_start": "2026-02-16", "ad_end": "2026-03-17" },
+        "12": { "name": "Chaitra", "days": 30, "ad_start": "2026-03-18", "ad_end": "2026-04-13" }
+      }
+    }
+  },
+  "festivals": [
+    {
+      "id": "nepali_new_year_2082",
+      "name": "Nepali New Year (2082)",
+      "bs_date": "2082-01-01",
+      "ad_date": "2025-04-14",
+      "type": "national",
+      "description": "First day of Baisakh, Nepali New Year"
+    },
+    {
+      "id": "ram_nawami_2082",
+      "name": "Ram Nawami",
+      "bs_date": "2082-02-08",
+      "ad_date": "2025-05-22",
+      "type": "religious",
+      "description": "Birthday of Lord Ram"
+    },
+    {
+      "id": "buddha_jayanti_2082",
+      "name": "Buddha Jayanti",
+      "bs_date": "2082-03-15",
+      "ad_date": "2025-06-29",
+      "type": "religious",
+      "description": "Birth anniversary of Gautam Buddha"
+    },
+    {
+      "id": "janai_purnima_2082",
+      "name": "Janai Purnima/Raksha Bandhan",
+      "bs_date": "2082-05-15",
+      "ad_date": "2025-09-02",
+      "type": "religious",
+      "description": "Sacred thread festival"
+    },
+    {
+      "id": "tij_2082",
+      "name": "Hartalika Teej",
+      "bs_date": "2082-05-30",
+      "ad_date": "2025-09-17",
+      "type": "religious",
+      "description": "Women's fasting festival"
+    },
+    {
+      "id": "indra_jatra_2082",
+      "name": "Indra Jatra",
+      "bs_date": "2082-06-13",
+      "ad_date": "2025-10-01",
+      "type": "cultural",
+      "description": "Festival of Indra, celebrated in Kathmandu"
+    },
+    {
+      "id": "ghatashapana_2082",
+      "name": "Ghatasthapana",
+      "bs_date": "2082-06-21",
+      "ad_date": "2025-10-09",
+      "type": "festival",
+      "description": "First day of Dashain"
+    },
+    {
+      "id": "fulpati_2082",
+      "name": "Fulpati",
+      "bs_date": "2082-06-27",
+      "ad_date": "2025-10-15",
+      "type": "festival",
+      "description": "Seventh day of Dashain"
+    },
+    {
+      "id": "maha_astami_2082",
+      "name": "Maha Astami",
+      "bs_date": "2082-06-28",
+      "ad_date": "2025-10-16",
+      "type": "festival",
+      "description": "Eighth day of Dashain"
+    },
+    {
+      "id": "maha_nawami_2082",
+      "name": "Maha Nawami",
+      "bs_date": "2082-06-29",
+      "ad_date": "2025-10-17",
+      "type": "festival",
+      "description": "Ninth day of Dashain"
+    },
+    {
+      "id": "vijaya_dashami_2082",
+      "name": "Vijaya Dashami (Dashain)",
+      "bs_date": "2082-06-30",
+      "ad_date": "2025-10-18",
+      "type": "national",
+      "description": "Main Dashain day, tika receiving day"
+    },
+    {
+      "id": "ekadashi_2082",
+      "name": "Ekadashi (after Dashain)",
+      "bs_date": "2082-07-11",
+      "ad_date": "2025-10-29",
+      "type": "religious",
+      "description": "Eleventh lunar day"
+    },
+    {
+      "id": "lakshmi_puja_2082",
+      "name": "Lakshmi Puja",
+      "bs_date": "2082-07-15",
+      "ad_date": "2025-11-02",
+      "type": "festival",
+      "description": "Third day of Tihar, worship of Goddess Lakshmi"
+    },
+    {
+      "id": "gobardhan_puja_2082",
+      "name": "Gobardhan Puja",
+      "bs_date": "2082-07-16",
+      "ad_date": "2025-11-03",
+      "type": "festival",
+      "description": "Fourth day of Tihar"
+    },
+    {
+      "id": "bhai_tika_2082",
+      "name": "Bhai Tika",
+      "bs_date": "2082-07-17",
+      "ad_date": "2025-11-04",
+      "type": "national",
+      "description": "Fifth day of Tihar, brothers and sisters ceremony"
+    },
+    {
+      "id": "chhath_parwa_2082",
+      "name": "Chhath Parwa",
+      "bs_date": "2082-07-25",
+      "ad_date": "2025-11-12",
+      "type": "religious",
+      "description": "Sun worship festival"
+    },
+    {
+      "id": "yomari_punhi_2082",
+      "name": "Yomari Punhi",
+      "bs_date": "2082-08-15",
+      "ad_date": "2025-12-02",
+      "type": "cultural",
+      "description": "Newar festival of Yomari"
+    },
+    {
+      "id": "udhauli_2082",
+      "name": "Udhauli",
+      "bs_date": "2082-08-15",
+      "ad_date": "2025-12-02",
+      "type": "cultural",
+      "description": "Kirant festival"
+    },
+    {
+      "id": "bala_chaturdashi_2082",
+      "name": "Bala Chaturdashi",
+      "bs_date": "2082-08-25",
+      "ad_date": "2025-12-12",
+      "type": "religious",
+      "description": "Festival observed in Pashupatinath"
+    },
+    {
+      "id": "maghe_sankranti_2082",
+      "name": "Maghe Sankranti",
+      "bs_date": "2082-10-01",
+      "ad_date": "2026-01-15",
+      "type": "national",
+      "description": "Winter solstice festival"
+    },
+    {
+      "id": "swasthani_brat_arambha_2082",
+      "name": "Swasthani Bratarambha",
+      "bs_date": "2082-10-05",
+      "ad_date": "2026-01-19",
+      "type": "religious",
+      "description": "Beginning of Swasthani month"
+    },
+    {
+      "id": "saraswati_puja_2082",
+      "name": "Saraswati Puja (Shree Panchami)",
+      "bs_date": "2082-10-20",
+      "ad_date": "2026-02-03",
+      "type": "religious",
+      "description": "Worship of Goddess Saraswati"
+    },
+    {
+      "id": "maha_shivaratri_2082",
+      "name": "Maha Shivaratri",
+      "bs_date": "2082-11-19",
+      "ad_date": "2026-03-04",
+      "type": "national",
+      "description": "Night of Lord Shiva"
+    },
+    {
+      "id": "holi_purnima_2082",
+      "name": "Holi Purnima",
+      "bs_date": "2082-11-29",
+      "ad_date": "2026-03-14",
+      "type": "festival",
+      "description": "Full moon day of Holi"
+    },
+    {
+      "id": "holi_parwa_2082",
+      "name": "Holi (Falgu Purnima)",
+      "bs_date": "2082-11-30",
+      "ad_date": "2026-03-15",
+      "type": "national",
+      "description": "Festival of colors"
+    },
+    {
+      "id": "ghode_jatra_2082",
+      "name": "Ghode Jatra",
+      "bs_date": "2082-12-13",
+      "ad_date": "2026-03-28",
+      "type": "cultural",
+      "description": "Horse festival"
+    },
+    {
+      "id": "chaite_dashain_2082",
+      "name": "Chaite Dashain",
+      "bs_date": "2082-12-29",
+      "ad_date": "2026-04-11",
+      "type": "religious",
+      "description": "Small Dashain"
+    },
+    {
+      "id": "nepali_new_year_2083",
+      "name": "Nepali New Year (2083)",
+      "bs_date": "2083-01-01",
+      "ad_date": "2026-04-14",
+      "type": "national",
+      "description": "First day of Baisakh, Nepali New Year"
+    }
+  ],
+  "daily_panchang": {
+    "rahu_kaal": {
+      "monday": {
+        "start": "07:30",
+        "end": "09:00",
+        "duration_minutes": 90
+      },
+      "tuesday": {
+        "start": "15:00",
+        "end": "16:30",
+        "duration_minutes": 90
+      },
+      "wednesday": {
+        "start": "12:00",
+        "end": "13:30",
+        "duration_minutes": 90
+      },
+      "thursday": {
+        "start": "13:30",
+        "end": "15:00",
+        "duration_minutes": 90
+      },
+      "friday": {
+        "start": "10:30",
+        "end": "12:00",
+        "duration_minutes": 90
+      },
+      "saturday": {
+        "start": "09:00",
+        "end": "10:30",
+        "duration_minutes": 90
+      },
+      "sunday": {
+        "start": "16:30",
+        "end": "18:00",
+        "duration_minutes": 90
+      }
+    },
+    "template": {
+      "date_bs": null,
+      "date_ad": null,
+      "weekday": null,
+      "tithi": null,
+      "tithi_end": null,
+      "nakshatra": null,
+      "nakshatra_end": null,
+      "yoga": null,
+      "karana": null,
+      "rahu_kaal_start": null,
+      "rahu_kaal_end": null,
+      "sunrise": "06:00",
+      "sunset": "18:00",
+      "moonrise": null,
+      "moonset": null,
+      "special_notes": null
+    }
+  },
+  "monthly_summary": [
+    {
+      "month_bs": 1,
+      "month_name": "Baisakh",
+      "year_bs": 2082,
+      "days": 31,
+      "important_dates": [
+        {
+          "day": 1,
+          "event": "Nepali New Year 2082",
+          "type": "festival"
+        }
+      ]
+    },
+    {
+      "month_bs": 2,
+      "month_name": "Jestha",
+      "year_bs": 2082,
+      "days": 32,
+      "important_dates": [
+        {
+          "day": 8,
+          "event": "Ram Nawami",
+          "type": "festival"
+        }
+      ]
+    },
+    {
+      "month_bs": 3,
+      "month_name": "Ashadh",
+      "year_bs": 2082,
+      "days": 32,
+      "important_dates": [
+        {
+          "day": 15,
+          "event": "Buddha Jayanti",
+          "type": "festival"
+        }
+      ]
+    },
+    {
+      "month_bs": 4,
+      "month_name": "Shrawan",
+      "year_bs": 2082,
+      "days": 32,
+      "important_dates": []
+    },
+    {
+      "month_bs": 5,
+      "month_name": "Bhadra",
+      "year_bs": 2082,
+      "days": 31,
+      "important_dates": [
+        {
+          "day": 15,
+          "event": "Janai Purnima",
+          "type": "festival"
+        },
+        {
+          "day": 30,
+          "event": "Hartalika Teej",
+          "type": "festival"
+        }
+      ]
+    },
+    {
+      "month_bs": 6,
+      "month_name": "Ashwin",
+      "year_bs": 2082,
+      "days": 31,
+      "important_dates": [
+        {
+          "day": 13,
+          "event": "Indra Jatra",
+          "type": "festival"
+        },
+        {
+          "day": 21,
+          "event": "Ghatasthapana (Dashain start)",
+          "type": "festival"
+        },
+        {
+          "day": 27,
+          "event": "Fulpati",
+          "type": "festival"
+        },
+        {
+          "day": 28,
+          "event": "Maha Astami",
+          "type": "festival"
+        },
+        {
+          "day": 29,
+          "event": "Maha Nawami",
+          "type": "festival"
+        },
+        {
+          "day": 30,
+          "event": "Vijaya Dashami",
+          "type": "festival"
+        }
+      ]
+    },
+    {
+      "month_bs": 7,
+      "month_name": "Kartik",
+      "year_bs": 2082,
+      "days": 30,
+      "important_dates": [
+        {
+          "day": 11,
+          "event": "Ekadashi",
+          "type": "religious"
+        },
+        {
+          "day": 15,
+          "event": "Lakshmi Puja (Tihar day 3)",
+          "type": "festival"
+        },
+        {
+          "day": 16,
+          "event": "Gobardhan Puja (Tihar day 4)",
+          "type": "festival"
+        },
+        {
+          "day": 17,
+          "event": "Bhai Tika (Tihar day 5)",
+          "type": "festival"
+        },
+        {
+          "day": 25,
+          "event": "Chhath Parwa",
+          "type": "festival"
+        }
+      ]
+    },
+    {
+      "month_bs": 8,
+      "month_name": "Mangsir",
+      "year_bs": 2082,
+      "days": 30,
+      "important_dates": [
+        {
+          "day": 15,
+          "event": "Yomari Punhi / Udhauli",
+          "type": "festival"
+        },
+        {
+          "day": 25,
+          "event": "Bala Chaturdashi",
+          "type": "religious"
+        }
+      ]
+    },
+    {
+      "month_bs": 9,
+      "month_name": "Poush",
+      "year_bs": 2082,
+      "days": 30,
+      "important_dates": []
+    },
+    {
+      "month_bs": 10,
+      "month_name": "Magh",
+      "year_bs": 2082,
+      "days": 29,
+      "important_dates": [
+        {
+          "day": 1,
+          "event": "Maghe Sankranti",
+          "type": "festival"
+        },
+        {
+          "day": 5,
+          "event": "Swasthani Bratarambha",
+          "type": "religious"
+        },
+        {
+          "day": 20,
+          "event": "Saraswati Puja (Shree Panchami)",
+          "type": "festival"
+        }
+      ]
+    },
+    {
+      "month_bs": 11,
+      "month_name": "Falgun",
+      "year_bs": 2082,
+      "days": 30,
+      "important_dates": [
+        {
+          "day": 19,
+          "event": "Maha Shivaratri",
+          "type": "festival"
+        },
+        {
+          "day": 29,
+          "event": "Holi Purnima",
+          "type": "festival"
+        },
+        {
+          "day": 30,
+          "event": "Holi (Falgu Purnima)",
+          "type": "festival"
+        }
+      ]
+    },
+    {
+      "month_bs": 12,
+      "month_name": "Chaitra",
+      "year_bs": 2082,
+      "days": 30,
+      "important_dates": [
+        {
+          "day": 13,
+          "event": "Ghode Jatra",
+          "type": "cultural"
+        },
+        {
+          "day": 29,
+          "event": "Chaite Dashain",
+          "type": "festival"
+        }
+      ]
+    }
+  ]
 }
