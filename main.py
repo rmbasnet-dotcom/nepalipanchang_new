@@ -23,7 +23,7 @@ def panchang_endpoint(date: str = "2026-02-12", lat: float = 27.7172, lon: float
     bs_date = nd.date.from_datetime_date(ad_date)
     bs_str = f"{bs_date.year}-{bs_date.month:02}-{bs_date.day:02}"
 
-    # Look up Panchang info
+    # Lookup Panchang info
     data = PANCHANG_DATA.get(bs_str, {
         "tithi": {"index": None, "name_en": "Unknown"},
         "nakshatra": {"index": None, "name_en": "Unknown"},
