@@ -1,9 +1,13 @@
 from fastapi import FastAPI
 from datetime import datetime
 import nepali_datetime as nd
-from panchang import Panchang
+import json
 
 app = FastAPI()
+
+# Load Panchang data once
+with open("panchang_data.json", "r") as f:
+    PANCHANG_DATA = json.load(f)
 
 @app.get("/")
 def home():
@@ -11,23 +15,31 @@ def home():
 
 @app.get("/panchang")
 def panchang_endpoint(date: str = "2026-02-12", lat: float = 27.7172, lon: float = 85.3240):
-    # AD string → datetime.date
+    # Convert AD string → datetime.date
     ad_datetime = datetime.strptime(date, "%Y-%m-%d")
     ad_date = ad_datetime.date()
 
-    # AD → BS conversion
+    # AD → BS
     bs_date = nd.date.from_datetime_date(ad_date)
+    bs_str = f"{bs_date.year}-{bs_date.month:02}-{bs_date.day:02}"
 
-    # Panchang calculation
-    p = Panchang(ad_date, lat, lon)
-    tithi = p.tithi  # returns object with .name, .index
-    nakshatra = p.nakshatra  # returns object with .name, .index
+    # Look up Panchang info
+    data = PANCHANG_DATA.get(bs_str, {
+        "tithi": {"index": None, "name_en": "Unknown"},
+        "nakshatra": {"index": None, "name_en": "Unknown"},
+        "rashi": {"index": None, "name_en": "Unknown"},
+        "festival": "None",
+        "rahu_kaal": "Unknown"
+    })
 
     return {
         "date_ad": date,
-        "date_bs": f"{bs_date.year}-{bs_date.month:02}-{bs_date.day:02}",
+        "date_bs": bs_str,
         "lat": lat,
         "lon": lon,
-        "tithi": {"index": tithi.index, "name_en": tithi.name},
-        "nakshatra": {"index": nakshatra.index, "name_en": nakshatra.name}
+        "tithi": data["tithi"],
+        "nakshatra": data["nakshatra"],
+        "rashi": data["rashi"],
+        "festival": data["festival"],
+        "rahu_kaal": data["rahu_kaal"]
     }
