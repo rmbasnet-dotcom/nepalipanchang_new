@@ -5,7 +5,7 @@ import json
 
 app = FastAPI()
 
-# Load Panchang data once
+# Load Panchang JSON file
 with open("panchang_data.json", "r") as f:
     PANCHANG_DATA = json.load(f)
 
@@ -19,11 +19,11 @@ def panchang_endpoint(date: str = "2026-02-12", lat: float = 27.7172, lon: float
     ad_datetime = datetime.strptime(date, "%Y-%m-%d")
     ad_date = ad_datetime.date()
 
-    # AD → BS
+    # Convert AD → BS
     bs_date = nd.date.from_datetime_date(ad_date)
     bs_str = f"{bs_date.year}-{bs_date.month:02}-{bs_date.day:02}"
 
-    # Lookup Panchang info
+    # Lookup Panchang info in JSON
     data = PANCHANG_DATA.get(bs_str, {
         "tithi": {"index": None, "name_en": "Unknown"},
         "nakshatra": {"index": None, "name_en": "Unknown"},
@@ -32,6 +32,7 @@ def panchang_endpoint(date: str = "2026-02-12", lat: float = 27.7172, lon: float
         "rahu_kaal": "Unknown"
     })
 
+    # Return JSON response
     return {
         "date_ad": date,
         "date_bs": bs_str,
