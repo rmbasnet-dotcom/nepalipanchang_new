@@ -1,4 +1,11 @@
 {
+  "2082-10-29": {
+    "tithi": {"index": 18, "name_en": "Trayodashi"},
+    "nakshatra": {"index": 11, "name_en": "Anuradha"},
+    "rashi": {"index": 5, "name_en": "Virgo"},
+    "festival": "None",
+    "rahu_kaal": "12:00-13:30"
+  },
   "2082-10-30": {
     "tithi": {"index": 19, "name_en": "Chaturdashi"},
     "nakshatra": {"index": 12, "name_en": "Uttara Phalguni"},
