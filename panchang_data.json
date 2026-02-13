@@ -1,23 +1,14 @@
 {
-  "2082-10-29": {
-    "tithi": {"index": 18, "name_en": "Trayodashi"},
-    "nakshatra": {"index": 11, "name_en": "Anuradha"},
-    "rashi": {"index": 5, "name_en": "Virgo"},
-    "festival": "None",
-    "rahu_kaal": "12:00-13:30"
-  },
-  "2082-10-30": {
-    "tithi": {"index": 19, "name_en": "Chaturdashi"},
-    "nakshatra": {"index": 12, "name_en": "Uttara Phalguni"},
-    "rashi": {"index": 5, "name_en": "Virgo"},
-    "festival": "None",
-    "rahu_kaal": "10:30-12:00"
-  },
-  "2082-10-31": {
-    "tithi": {"index": 20, "name_en": "Purnima"},
-    "nakshatra": {"index": 13, "name_en": "Hasta"},
-    "rashi": {"index": 6, "name_en": "Libra"},
-    "festival": "Maha Shivaratri",
-    "rahu_kaal": "07:30-09:00"
-  }
+"2082-01-01":{"date_ad":"2025-04-14","tithi":{"index":null,"name_en":""},"nakshatra":{"index":null,"name_en":""},"rashi":{"index":null,"name_en":""},"festival":"","rahu_kaal":""},
+"2082-01-02":{"date_ad":"2025-04-15","tithi":{"index":null,"name_en":""},"nakshatra":{"index":null,"name_en":""},"rashi":{"index":null,"name_en":""},"festival":"","rahu_kaal":""},
+"2082-01-03":{"date_ad":"2025-04-16","tithi":{"index":null,"name_en":""},"nakshatra":{"index":null,"name_en":""},"rashi":{"index":null,"name_en":""},"festival":"","rahu_kaal":""},
+"2082-01-04":{"date_ad":"2025-04-17","tithi":{"index":null,"name_en":""},"nakshatra":{"index":null,"name_en":""},"rashi":{"index":null,"name_en":""},"festival":"","rahu_kaal":""},
+"2082-01-05":{"date_ad":"2025-04-18","tithi":{"index":null,"name_en":""},"nakshatra":{"index":null,"name_en":""},"rashi":{"index":null,"name_en":""},"festival":"","rahu_kaal":""},
+"2082-01-06":{"date_ad":"2025-04-19","tithi":{"index":null,"name_en":""},"nakshatra":{"index":null,"name_en":""},"rashi":{"index":null,"name_en":""},"festival":"","rahu_kaal":""},
+"2082-01-07":{"date_ad":"2025-04-20","tithi":{"index":null,"name_en":""},"nakshatra":{"index":null,"name_en":""},"rashi":{"index":null,"name_en":""},"festival":"","rahu_kaal":""},
+"2082-01-08":{"date_ad":"2025-04-21","tithi":{"index":null,"name_en":""},"nakshatra":{"index":null,"name_en":""},"rashi":{"index":null,"name_en":""},"festival":"","rahu_kaal":""},
+"2082-01-09":{"date_ad":"2025-04-22","tithi":{"index":null,"name_en":""},"nakshatra":{"index":null,"name_en":""},"rashi":{"index":null,"name_en":""},"festival":"","rahu_kaal":""},
+"2082-01-10":{"date_ad":"2025-04-23","tithi":{"index":null,"name_en":""},"nakshatra":{"index":null,"name_en":""},"rashi":{"index":null,"name_en":""},"festival":"","rahu_kaal":""},
+...
+"2083-12-30":{"date_ad":"2026-04-12","tithi":{"index":null,"name_en":""},"nakshatra":{"index":null,"name_en":""},"rashi":{"index":null,"name_en":""},"festival":"","rahu_kaal":""}
 }
