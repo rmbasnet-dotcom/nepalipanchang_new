@@ -1,13 +1,10 @@
 {
-"2082-01-01":{"date_ad":"2025-04-14","tithi":{"index":null,"name_en":""},"nakshatra":{"index":null,"name_en":""},"rashi":{"index":null,"name_en":""},"festival":"","rahu_kaal":""},
-"2082-01-02":{"date_ad":"2025-04-15","tithi":{"index":null,"name_en":""},"nakshatra":{"index":null,"name_en":""},"rashi":{"index":null,"name_en":""},"festival":"","rahu_kaal":""},
-"2082-01-03":{"date_ad":"2025-04-16","tithi":{"index":null,"name_en":""},"nakshatra":{"index":null,"name_en":""},"rashi":{"index":null,"name_en":""},"festival":"","rahu_kaal":""},
-"2082-01-04":{"date_ad":"2025-04-17","tithi":{"index":null,"name_en":""},"nakshatra":{"index":null,"name_en":""},"rashi":{"index":null,"name_en":""},"festival":"","rahu_kaal":""},
-"2082-01-05":{"date_ad":"2025-04-18","tithi":{"index":null,"name_en":""},"nakshatra":{"index":null,"name_en":""},"rashi":{"index":null,"name_en":""},"festival":"","rahu_kaal":""},
-"2082-01-06":{"date_ad":"2025-04-19","tithi":{"index":null,"name_en":""},"nakshatra":{"index":null,"name_en":""},"rashi":{"index":null,"name_en":""},"festival":"","rahu_kaal":""},
-"2082-01-07":{"date_ad":"2025-04-20","tithi":{"index":null,"name_en":""},"nakshatra":{"index":null,"name_en":""},"rashi":{"index":null,"name_en":""},"festival":"","rahu_kaal":""},
-"2082-01-08":{"date_ad":"2025-04-21","tithi":{"index":null,"name_en":""},"nakshatra":{"index":null,"name_en":""},"rashi":{"index":null,"name_en":""},"festival":"","rahu_kaal":""},
-"2082-01-09":{"date_ad":"2025-04-22","tithi":{"index":null,"name_en":""},"nakshatra":{"index":null,"name_en":""},"rashi":{"index":null,"name_en":""},"festival":"","rahu_kaal":""},
-"2082-01-10":{"date_ad":"2025-04-23","tithi":{"index":null,"name_en":""},"nakshatra":{"index":null,"name_en":""},"rashi":{"index":null,"name_en":""},"festival":"","rahu_kaal":""},
-"2083-12-30":{"date_ad":"2026-04-12","tithi":{"index":null,"name_en":""},"nakshatra":{"index":null,"name_en":""},"rashi":{"index":null,"name_en":""},"festival":"","rahu_kaal":""}
+"2082-01-01":{"date_ad":"2025-04-14","tithi":{"index":null,"name_en":""},"nakshatra":{"index":null,"name_en":""},"rashi":{"index":null,"name_en":""},"festival":"New Year's Day","rahu_kaal":"07:15-08:45"},
+"2082-01-02":{"date_ad":"2025-04-15","tithi":{"index":null,"name_en":""},"nakshatra":{"index":null,"name_en":""},"rashi":{"index":null,"name_en":""},"festival":"","rahu_kaal":"10:30-12:00"},
+"2082-01-03":{"date_ad":"2025-04-16","tithi":{"index":null,"name_en":""},"nakshatra":{"index":null,"name_en":""},"rashi":{"index":null,"name_en":""},"festival":"","rahu_kaal":"12:00-13:30"},
+"2082-01-04":{"date_ad":"2025-04-17","tithi":{"index":null,"name_en":""},"nakshatra":{"index":null,"name_en":""},"rashi":{"index":null,"name_en":""},"festival":"","rahu_kaal":"15:00-16:30"},
+"2082-07-15":{"date_ad":"2025-10-03","tithi":{"index":null,"name_en":""},"nakshatra":{"index":null,"name_en":""},"rashi":{"index":null,"name_en":""},"festival":"Dashain 1","rahu_kaal":"10:30-12:00"},
+"2082-07-20":{"date_ad":"2025-10-08","tithi":{"index":null,"name_en":""},"nakshatra":{"index":null,"name_en":""},"rashi":{"index":null,"name_en":""},"festival":"Dashain 5","rahu_kaal":"12:00-13:30"},
+"2082-08-08":{"date_ad":"2025-10-27","tithi":{"index":null,"name_en":""},"nakshatra":{"index":null,"name_en":""},"rashi":{"index":null,"name_en":""},"festival":"Tihar 1 - Kaag Tihar","rahu_kaal":"10:30-12:00"},
+"2083-12-30":{"date_ad":"2026-04-12","tithi":{"index":null,"name_en":""},"nakshatra":{"index":null,"name_en":""},"rashi":{"index":null,"name_en":""},"festival":"None","rahu_kaal":"07:15-08:45"}
 }
