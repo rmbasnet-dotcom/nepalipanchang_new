@@ -1,0 +1,16 @@
+{
+  "2082-10-30": {
+    "tithi": {"index": 19, "name_en": "Chaturdashi"},
+    "nakshatra": {"index": 12, "name_en": "Uttara Phalguni"},
+    "rashi": {"index": 5, "name_en": "Virgo"},
+    "festival": "None",
+    "rahu_kaal": "10:30-12:00"
+  },
+  "2082-10-31": {
+    "tithi": {"index": 20, "name_en": "Purnima"},
+    "nakshatra": {"index": 13, "name_en": "Hasta"},
+    "rashi": {"index": 6, "name_en": "Libra"},
+    "festival": "Maha Shivaratri",
+    "rahu_kaal": "07:30-09:00"
+  }
+}
